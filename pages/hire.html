@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindy photo -Hire-</title>
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="shortcut icon" href="../assets/imagenes/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="boton">Home</a>
+            <a href="./aboutUs.html" class="boton">AboutUs</a>
+            <a href="./contact.html" class="boton">Contact</a>
+            <a href="./services.html" class="boton">Services</a>
+            <a href="./rating.html" class="boton">Rating</a>
+            <a href="./hire.html" class="boton">Hire</a>
+        </nav>
+        <img src="../assets/imagenes/logo.png" alt="logo de la pagina" class="logo">
+    </header>
+    <main class="main-hire">
+        <h2 class="texto-claro">Hire</h2>
+        <h3 class="second-title">Fill out the form so we can attend your event</h3>
+        <div class="sect-hire">
+            <article>
+                <h4>Our location</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.0441944587!2d-118.74139332132471!3d34.02060845024839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2spy!4v1697849932967!5m2!1ses!2spy"
+                    width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <form action="../showdata/show_data.html">
+                <label>
+                    First Name and Last Name
+                    <br>
+                    <input type="text" name="personal information">
+                    <br>
+                </label>
+                    <label>
+                        Phone Number
+                        <br>
+                        <input type="text" name="Phone">
+                        <br>
+                </label>
+                <label for="multiple-choices">Choose Service</label>
+                <select name="choices" id="multiple-choices">
+                    <option value="multiple-choices">options</option>
+                    <option value="multiple-choices">Wedding</option>
+                    <option value="multiple-choices">Birthday</option>
+                    <option value="multiple-choices">Kids Birthday</option>
+                    <option value="multiple-choices">Photo Studio / Outside</option>
+                </select>
+                <label>
+                    Choose Date
+                    <br>
+                    <input type="date" name="Date">
+                    <br>
+                </label>
+                Payment Options
+                <label>
+                    <input type="radio" name="Pay" value="cash"> Cash
+                </label>
+                <label>
+                    <input type="radio" name="Pay" value="Credit Card"> Credit Card
+                </label>
+                <label>
+                    <input type="radio" name="Pay" value="Debit Card"> Debit Card
+                </label>
+                Message (Location and Time)
+                <textarea name="Message" id="Message" cols="30" rows="5"></textarea>
+                <div class="conditions-form">
+                    <br>
+                    <input type="checkbox" name="Conditions" value="I accept">
+                    <label>I accept terms and conditions...</label>
+                    <input type="submit" value="send">
+                    <br>
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <p class="pie-de-pagina">create by Yanina Ferreira</p>
+    </footer>
+</body>
+
+</html>
