@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-radius: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: transparent;
+    border-radius: 1rem;
+    background-color: white;
+    width: 400px;
+    gap: 1rem;
+    padding-top: 3rem;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 7rem;
+}
+input{
+    width: 240px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.comment{
+display: flex;
+width: min-content;
+margin-top: 1rem;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(197, 197, 197);
+    padding-top: 3rem;
+}
+header{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 8rem;
+}
+iframe{
+width: 550px;
+border-radius: 1rem;
+}
+@media only screen and (min-width:325px) and (max-width:767px) {
+body{
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    body{
+    flex-direction: column-reverse;
+    align-items: center;
+    }
+    }
